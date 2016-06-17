@@ -1,0 +1,16 @@
+<nav class="main-nav clearfix">
+    <div class="inner">
+        <ul class="nav">
+            {{#foreach navigation}}
+                <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}" role="presentation"><a href="{{url absolute="true"}}">{{label}}</a></li>
+            {{/foreach}}
+        </ul>
+        <div class="nav-extra">
+            <form>
+                <input id="search-field" type="search" placeholder="search" />
+            </form>
+            <section id="results"></section>
+            <a href="{{@blog.url}}/rss/">Subscribe</a>
+        </div>
+    </div>
+</nav>
