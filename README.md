@@ -3,12 +3,18 @@
 
 最近开始学 swift ，然后搞个小网站来记录学习中遇到的问题。
 
-##预览：
-
 ##特性：
 主要是两点：
 - 集成了搜索
 - 自定义错误页
+
+##预览：
+
+![](https://raw.githubusercontent.com/qianduan/swiftnote/master/swiftnote.png)
+
+![](https://raw.githubusercontent.com/qianduan/swiftnote/master/swiftnote-app.png)
+
+![](https://raw.githubusercontent.com/qianduan/swiftnote/master/swiftnote-404.png)
 
 ##CopyRight
 
