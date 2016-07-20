@@ -1,14 +1,12 @@
 # swiftnote
-一个 [Ghost](http://github.com/tryghost/ghost/) theme，用于网站 [swiftnote](https://www.swiftnote.io/)
+a [Ghost](http://github.com/tryghost/ghost/) theme, used to [swiftnote](https://www.swiftnote.io/)
 
-最近开始学 swift ，然后搞个小网站来记录学习中遇到的问题。
+##Features :
 
-##特性：
-主要是两点：
-- 集成了搜索
-- 自定义错误页
+- Integrated with search
+- Custormed error page
 
-##预览：
+##Preview :
 
 ![](https://raw.githubusercontent.com/qianduan/swiftnote/master/swiftnote.png)
 
@@ -18,9 +16,9 @@
 
 ##CopyRight
 
-- 模板基于 [Casper](https://github.com/TryGhost/Casper) 定制
-- 代码高亮基于 [hilight.js](highlightjs.org) + [Solarized Light](http://ethanschoonover.com/solarized)
-- 搜索基于 [jQueryHunter](https://github.com/jamalneufeld/ghostHunter) 目前只支持英文搜索，对于技术类网站，差不多够了
+- This theme is based on [Casper](https://github.com/TryGhost/Casper) 
+- Code highlighter used [hilight.js](highlightjs.org) and [Solarized Light](http://ethanschoonover.com/solarized)
+- Search function used [jQueryHunter](https://github.com/jamalneufeld/ghostHunter), yeah, it's only support English, if you use other languages, you can replace lunr section with [lunr-languages](https://github.com/MihaiValentin/lunr-languages) (but excerpt Chinese)
 
 ## Copyright & License
 
