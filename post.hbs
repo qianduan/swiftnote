@@ -42,18 +42,19 @@
 
         {{/author}}
         </footer>
-        <section class="post-more">
-            {{#prev_post}}
-            <p>Prev Post: <a class="" href="{{url}}">{{title}}</a></p>
-            {{/prev_post}}
-            {{#next_post}}
-            <p>Next Post: <a class="" href="{{url}}">{{title}}</a></p>
-            {{/next_post}}
-        </section>
-        <section id="disqus_thread">
-        </section>
+        
     </article>
-    <div id="disqus_thread"></div>
+    <<aside class="post-more">
+        {{#prev_post}}
+        <p>Prev: <a class="" href="{{url}}">{{title}}</a></p>
+        {{/prev_post}}
+        {{#next_post}}
+        <p>Next: <a class="" href="{{url}}">{{title}}</a></p>
+        {{/next_post}}
+    </<aside>
+    <section id="disqus_thread">
+    </section>
+</main>
 <script>
     /**
      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
@@ -75,7 +76,7 @@
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-</main>
+
 <script type="text/javascript" src="{{asset "js/highlight.js"}}"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 {{/post}}
